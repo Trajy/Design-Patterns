@@ -36,7 +36,7 @@ public class Main {
     }
 
     // Double Dispach
-    // Overload method visitor() and Override method accept();
+    // Overload method visit() and Override method accept();
     public static void lateBinding() {
         out.println("\n\n----- Visitor Pattern -----\n");
         List<Forma> formas = ListPatternFactory.createListPattern();
